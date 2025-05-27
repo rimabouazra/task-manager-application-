@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { mongoose } = require('./db/mongoose'); // Import the mongoose connection
 const { List } = require('./db/models/list.model'); // Import the List model
-const { Task } = require('./models/task.model'); // Import the Task model
-const { User } = require('./models/user.model'); // Import the User model
+const { Task } = require('./db/models/task.model'); // Import the Task model
+const { User } = require('./db/models/user.model'); // Import the User model
 
 
 const app = express();
