@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/TaskManager', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://rimabouazra2003:vq08SbT0cRlWLfOJ@cluster0.b6x3bgq.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Connected to MongoDB successfully :)');
   })
