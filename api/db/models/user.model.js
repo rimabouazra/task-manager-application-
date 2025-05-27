@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const _ =require('lodash');
-const jwt =require('jdonwebtoken');
+const jwt =require('jsonwebtoken');
 const crypto=require('crypto');
 const bcrypt = require('bcryptjs');
 
